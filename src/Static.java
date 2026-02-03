@@ -4,8 +4,11 @@
     static String name;
 //    static{
 //        name="rectangle";
-//        System.out.println(name);
+//        System.out.println("jeeva");  // class load then main run
 //    }
+     {
+         System.out.println("not");   // not static block it run whenver
+     }
 //    Test(){
 //        length=20;
 //        width=40;
@@ -30,6 +33,7 @@ public class Static {
 
     public static void main(String args[])   throws ClassNotFoundException{
 //        Class.forName("Test");
+//        System.out.println("hi");
          Test obj1=new  Test();
          obj1.length=10;
          obj1.width=10;

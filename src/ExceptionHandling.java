@@ -14,7 +14,7 @@ class Handle{
 //      it give the Zero divsion error
 
     // object
-    //throwable
+    //throwable  java.lang
     // Exception
     //  Runtime exception - unchecked exception - we abe to hanlde are not
     //  Sql Exception ,IO exception - checked - we must able to handle it
@@ -27,6 +27,7 @@ class Handle{
 
 //        System.out.println(arr[7]);
         d=a/b;
+
         if (d==0){
             throw new ArithmeticException(" is this default value");
         }

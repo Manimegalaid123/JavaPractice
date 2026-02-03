@@ -11,7 +11,8 @@ class Student{
 }
 public class Task {
     public static void main(String[] args) {
-
+  int a[]={1,2,3};
+        System.out.println(a.equals(0));
 
 //        Student s2=new Student();
 //        Student s3=new Student();

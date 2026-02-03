@@ -10,6 +10,8 @@ public class Stringmethos {
         System.out.println(s.equals("kalai"));
         System.out.println(s.toUpperCase());
         System.out.println(s.toLowerCase());
+        System.out.println(s.endsWith("i"));
+        System.out.println(s.substring(2));
         System.out.println(s.compareTo("ka"));
         System.out.println(s.compareTo("aaaaaaaaaaaaaaaaaaaaaaaaaa"));
         System.out.println(s.compareTo("manimegalai"));

@@ -10,6 +10,7 @@ public class Poolcon {
             String s4=new String("abc");
             System.out.println(s1==s2);
             System.out.println(s1==s3);
+            System.out.println(s1.equals(s2==s4));
             System.out.println(s1.equals(s2));
             System.out.println(s1.equals(s3));
             System.out.println(s3.equals(s1));// content
@@ -29,7 +30,8 @@ public class Poolcon {
             String s10="hello";
 
             String s11 = "welcome";
-           s10.concat("hi"); // immutale
+           s10.concat("hi");
+            System.out.println(s10);// immutale
 
             s11=s10.concat(s11);  // we can assign only the string change
 

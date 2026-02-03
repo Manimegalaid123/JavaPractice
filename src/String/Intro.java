@@ -3,8 +3,15 @@ package String;
 public class Intro {
     public static void main(String[] args){
         String s=new String(); //heap memory
-        String s1="hello"; //Staric memory
-        s="hi";
+        String s1="hello";
+        System.out.println(s1);
+        s1="babu";
+        System.out.println(s1);//Staric memory
+        s=s+"hi";
+      StringBuffer ss=new StringBuffer();
+      ss.append("kaaviya\n");
+      ss.append("sry");
+        System.out.println(ss);
 
 
         System.out.println(s);

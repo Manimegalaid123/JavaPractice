@@ -25,7 +25,8 @@ public class Darray{
         }
      // for 2d   System.out.println(Arrays.deepToString(arr2));
         int arr1[]=new int[]{1,2,3};
-      // for 1d  System.out.println(Arrays.toString(arr1));
+//       for 1d
+       System.out.println(Arrays.toString(arr1));
         System.out.println("lenth"+arr.length);
 
 

@@ -5,8 +5,10 @@ class Tests{
     {
         name="kalai";
         age=10;
-        System.out.println("constructor");
-        System.out.println(name+age);    // default constructor
+        System.out.println("constructor");// because there is parameter constructor
+        System.out.println(name+age);    // zero parameter
+
+        // if there is no paramter constructor means its default constructor
     }
 
     Tests(int age,String name)
