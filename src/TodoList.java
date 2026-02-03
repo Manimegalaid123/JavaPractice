@@ -45,7 +45,6 @@ public class TodoList {
                 case 5:
                    System.exit(0);
                    break;
-
             }
         }
     }

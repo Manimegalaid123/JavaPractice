@@ -67,3 +67,43 @@ public class Operators {
     }
 
 }
+
+
+//#include <stdio.h>
+//#include <string.h>
+//#include "stack.h"
+//
+//int isMatching(char open, char close) {
+//    return (open == '(' && close == ')') ||
+//           (open == '{' && close == '}') ||
+//           (open == '[' && close == ']');
+//}
+//
+//int isValid(char* str) {
+//    Node* stack = NULL;
+//    int len = strlen(str);
+//
+//    for(int i = 0; i < len; i++) {
+//        char c = str[i];
+//        if(c == '(' || c == '{' || c == '[') {
+//            push(&stack, c);
+//        } else if(c == ')' || c == '}' || c == ']') {
+//            if(isEmpty(stack) || !isMatching(pop(&stack), c))
+//                return 0;
+//        }
+//    }
+//    return isEmpty(stack);
+//}
+//
+//int main() {
+//    char str[100];
+//    printf("Enter parentheses string: ");
+//    scanf("%s", str);
+//
+//    if(isValid(str))
+//        printf("Valid parentheses\n");
+//    else
+//        printf("Invalid parentheses\n");
+//
+//    return 0;
+//}
