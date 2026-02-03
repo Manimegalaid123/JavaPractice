@@ -2,6 +2,7 @@ import java.util.*;
 public class ArrayOper {
     public static void main(String args[]){
         ArrayList list=new ArrayList();
+
         while(true){
 
             Scanner sc=new Scanner(System.in);
