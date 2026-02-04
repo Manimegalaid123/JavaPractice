@@ -1,5 +1,7 @@
 import java.sql.SQLOutput;
+/* if parent class and child class have the same method which is non static
 
+ */
 //class A{
 //     void show(){
 //         System.out.println("this is A");
@@ -35,3 +37,5 @@ public class Overriding
         System.out.println(res);
     }
 }
+
+// it based on the object  type

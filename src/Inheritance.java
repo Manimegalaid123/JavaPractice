@@ -14,6 +14,11 @@ class BabyDog extends Dog{
         System.out.println("baby dog");
     }
 }
+class Cat extends Animal{
+    void show4(){
+        System.out.println("this cat class");
+    }
+}
 public class Inheritance {
     public static void main(String []args){
 //         Dog obj=new Dog();
@@ -22,9 +27,12 @@ public class Inheritance {
 //         obj.show1();        single inheritance
 //         obj1.show();
         BabyDog obj1=new BabyDog();
+        Animal obj2=new Cat();
         obj1.show3();
         obj1.show();
         obj1.show1();
+        Cat obj3=(Cat)obj2;
+        obj3.show4();
 
 
     }

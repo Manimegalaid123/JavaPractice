@@ -32,3 +32,7 @@ public class Polymorphism {
 
     }
 }
+
+/*  a parent class and child name have same name methods name but static
+parent class methods have static
+ */

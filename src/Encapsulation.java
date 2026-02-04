@@ -1,5 +1,9 @@
-class
-Demo{
+/* modifier returntype getName(){
+}
+ modifier returnType setName(){
+this.name="value"
+        }*/
+class Demo{
 //    private int rollno=10;
 //    private String name="kalai";
 private int rollno;
