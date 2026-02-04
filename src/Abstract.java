@@ -26,14 +26,15 @@ public class Abstract {
 
 
     public static void main(String []args){
-//      Idea obj=new Idea();  for abstract class can't be create the object
+//        Idea obj=new Idea();  for abstract class can't be create the object
+      //  but we create the object reference for the abstract class
 //        Project obj=new Project(); // if cre
 //        obj.show();
 //        obj.demo();
 //        obj.demo1();
         Idea obj=new Project();
         obj.show();
-//        obj.demo1(); in this we canot call the subclass methods
+//      obj.demo1(); in this we canot call the subclass methods
         obj.demo();
 
 

@@ -1,7 +1,9 @@
 class X{
- public String toString(){
+ public String toString()
+ {
      return "this A class tostring no object class";
  }
+
 }
 
 
@@ -16,7 +18,6 @@ public class ObjectClass {
          System.out.println(obj2); // it inherit the object class toString method
          System.out.println(obj1==obj2);
          System.out.println(obj1.equals(obj2));
-
 
      }
 }

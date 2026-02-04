@@ -25,9 +25,9 @@ private int rollno;
 public class Encapsulation {
     public static void main(String args[]){
            Demo obj=new Demo();
-//        System.out.println(obj.name);  name has private access in Demo
+//      System.out.println(obj.name);  name has private access in Demo
         obj.setRollno(21);
-         obj.getRollno(); // we can access through the methods alone
+        obj.getRollno(); // we can access through the methods alone
         obj.setName("kalai");
         obj.getName();
     }

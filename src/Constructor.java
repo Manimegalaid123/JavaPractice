@@ -38,7 +38,7 @@ class Tests{
 }
 public class Constructor {
     public static void main(String arge[]){
-         Tests obj1=new Tests();
+        Tests obj1=new Tests();
         Tests obj2=new Tests();
         Tests obj3=new Tests(10,"kani");
         Tests obj4=new Tests(9,"mani");

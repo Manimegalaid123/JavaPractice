@@ -13,11 +13,9 @@ class Exec{
                  throw new MyException("this my custom exception");
              }
          }catch(MyException e){
-
              System.out.println(e);
          }
      }
-
 }
 
 
