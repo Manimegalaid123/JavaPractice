@@ -1,5 +1,13 @@
 package String;
 
+/*
+It is collection of characters or anything which enclosed with double quotes
+it present is a class which is present inside java.lang package
+String is immutable , becuase once object is created then values can't be modifies
+ 2 ways to declare string
+ using
+ string literal and new keyword
+ */
 public class Intro {
     public static void main(String[] args){
         String s=new String(); //heap memory
