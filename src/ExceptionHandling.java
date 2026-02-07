@@ -4,10 +4,11 @@ runtime error-  program run correctly but when  a certain condition  the error i
 logical error- program run smmothly but the output not coorect
 exception handling -used to handle the runtime error and other exception condition
 that distrup the flow of the program. it allow the developer to handled the unexcected event
+
  */
 class Handle{
-     int a=10;
-     int b=20;
+     int a=40;
+     int b=0;
     int d;
 //     int[] arr =new int[5];
 //     int d=a/b;
@@ -28,8 +29,8 @@ class Handle{
 //        System.out.println(arr[7]);
         d=a/b;
 
-        if (d==0){
-            throw new ArithmeticException(" is this default value");
+        if (b==0){
+            throw new Exception(" is this default value");
         }
     }
     catch(ArithmeticException e ) {
@@ -38,15 +39,25 @@ class Handle{
     }catch (ArrayIndexOutOfBoundsException e){
         System.out.println("hi ");
     }catch(Exception e){
-        System.out.println();
+        System.out.println("this normal exception");
     }
        System.out.println(d);
    }
 }
 
-public class ExceptionHandling {
+public class  ExceptionHandling {
 public static void main(String[] args){
     Handle obj=new Handle();
     obj.handling();;
+//    try{
+//        int b=10/4;
+//        System.out.println(b);
+//        String s=null;
+//        System.out.println(s.length());
+//    }catch(ArithmeticException | NullPointerException e){
+//        System.out.println(e);
+//
+//    }
+
 }
 }

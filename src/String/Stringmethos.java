@@ -20,11 +20,13 @@ public class Stringmethos {
         System.out.println(s.compareToIgnoreCase("AAAAAAAAAAAAAAAAAAAAAAAAAA"));
         System.out.println(s.contains("mani"));
         System.out.println(s.charAt(3));
-        System.out.println(s.indexOf("i"));
+        System.out.println(s.indexOf(9));
+        System.out.println(s.lastIndexOf("i"));
         System.out.println(s.substring(4));
         System.out.println(s.substring(4,10));
        s=s.replace("a","b");
         System.out.println(s);
+
 
         String s2="hi";
         s=s.concat(s2);
